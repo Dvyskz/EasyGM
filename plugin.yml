@@ -1,0 +1,16 @@
+name: EasyGM
+version: 1.0.0
+main: EasyGM\Main
+api: 5.0.0
+author: Dvyskz (@Dvyskz)
+
+commands:
+  gm:
+    description: Cambia tu modo de juego rapidamente
+    usage: /gm <0|1|2|3>
+    permission: easygm.use
+
+permissions:
+  easygm.use:
+    default: op
+    description: Permite usar el comando gm
